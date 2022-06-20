@@ -6,7 +6,6 @@
   "author": "ShootGan <nawelpalepka@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "postinstall": "cross-env TS_NODE_PROJECT=tsconfig.node.json ts-node ./scripts/runner/commands/postInstall/postInstall.ts",
     "prepare": "husky install",
     "build": "cross-env TS_NODE_PROJECT=tsconfig.node.json ts-node ./scripts/runner/commands/build/build.ts",
     "storybook": "start-storybook -p 6006",
