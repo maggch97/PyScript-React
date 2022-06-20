@@ -7,6 +7,7 @@
     ]
   },
   "compilerOptions": {
+    "allowJs": true,
     "incremental": true,
     "jsx": "react",
     "target": "esnext",
